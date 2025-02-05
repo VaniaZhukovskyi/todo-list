@@ -22,7 +22,7 @@ public class TaskController {
     @GetMapping("/")
     public String index(Model model) {
         model.addAttribute("tasks", taskService.getAllTasks());
-        logger.info("Home page displayed");
+        logger.info("Home page displayed-1");
         return "index";
     }
 
